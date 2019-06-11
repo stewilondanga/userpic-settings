@@ -7,8 +7,8 @@ var navigate = (function() {
   });
 })();
 
-/*const messageElement = document.querySelector('#js-message');
-
+const messageElement = document.querySelector('#js-message');
+/*
 // Image elements
 const fileUpload        = document.querySelector('#js-file-uploader');
 const profileTrigger    = document.querySelector('#js-profile-trigger');
