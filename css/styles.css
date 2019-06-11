@@ -38,11 +38,11 @@ h1 {
   color: #923;
 }
 
-/*.settings-message--success {
+.settings-message--success {
   color: #293;
 }
 
-.hidden {
+/*.hidden {
   display: none;
 }
 
