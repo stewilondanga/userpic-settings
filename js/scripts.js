@@ -16,8 +16,8 @@ const profileBackground = document.querySelector('#js-profile-pic');
 
 // Password objects
 const password = document.querySelector('#js-password');
-/*const passwordConfirm = document.querySelector('#js-password-confirm');
-const passwordToggle  = document.querySelector('#js-toggle-password');
+const passwordConfirm = document.querySelector('#js-password-confirm');
+/*const passwordToggle  = document.querySelector('#js-toggle-password');
 const passwordSuggest = document.querySelector('#js-suggest-password');
 let passwordDisplayed = false;
 
