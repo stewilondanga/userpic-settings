@@ -109,12 +109,12 @@ form>*:not(:first-of-type) {
   transition: color .2s, background-color .2s;
 }
 
-/*.profile-pic__foreground:hover {
+.profile-pic__foreground:hover {
   color: #fff;
   background-color: rgba(20, 20, 20, 0.85);
 }
 
-.input__container {
+/*.input__container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
