@@ -82,13 +82,13 @@ form>*:not(:first-of-type) {
   }
 }
 
-/*.profile-pic__container,
+.profile-pic__container,
 .profile-pic__foreground {
   line-height: 200px;
   text-align: center;
 }
 
-.profile-pic__container {
+/*.profile-pic__container {
   overflow: hidden;
   position: relative;
   border: 3px solid #333;
