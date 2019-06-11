@@ -29,11 +29,12 @@ h1 {
   font-size: 34px;
 }
 
-/*.settings-message {
+.settings-message {
   font-size: 20px;
   text-align: center;
 }
-.settings-message--error {
+
+/*.settings-message--error {
   color: #923;
 }
 .settings-message--success {
