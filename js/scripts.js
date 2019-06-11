@@ -41,7 +41,7 @@ profileTrigger.addEventListener('click', function(event) {
   event.preventDefault();
   fileUpload.click();
 });
-/*
+
 // new profile pic added, display it
 fileUpload.addEventListener("change", function(event) {
   if (fileUpload.files && fileUpload.files[0]) {
@@ -55,7 +55,7 @@ fileUpload.addEventListener("change", function(event) {
     reader.readAsDataURL(fileUpload.files[0]);
   }
 });
-
+/*
 // Add a suggested password for the user (to both password & confirm password inputs)
 passwordSuggest.addEventListener('click', function(event) {
   let newPassword = btoa(Math.random().toString(36).substring(2));
