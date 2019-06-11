@@ -11,8 +11,8 @@ const messageElement = document.querySelector('#js-message');
 
 // Image elements
 const fileUpload = document.querySelector('#js-file-uploader');
-/*const profileTrigger    = document.querySelector('#js-profile-trigger');
-const profileBackground = document.querySelector('#js-profile-pic');
+const profileTrigger = document.querySelector('#js-profile-trigger');
+/*const profileBackground = document.querySelector('#js-profile-pic');
 
 // Password objects
 const password        = document.querySelector('#js-password');
