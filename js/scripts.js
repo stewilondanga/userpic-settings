@@ -62,7 +62,7 @@ passwordSuggest.addEventListener('click', function(event) {
   password.value = newPassword;
   passwordConfirm.value = newPassword;
 });
-/*
+
 // Toggle the type of input the password field is (for user visibility)
 passwordToggle.addEventListener('click', function(event) {
   passwordDisplayed = !passwordDisplayed;
