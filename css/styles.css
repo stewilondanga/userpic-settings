@@ -127,12 +127,13 @@ form>*:not(:first-of-type) {
   flex-basis: 100%;
 }
 
-/*@media (min-width: 750px) {
-  .input__container > * {
+@media (min-width: 750px) {
+  .input__container>* {
     flex-basis: 49%;
   }
 }
-.input__container > * input {
+
+/*.input__container > * input {
   width: 100%;
 }
 
