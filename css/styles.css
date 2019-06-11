@@ -145,13 +145,13 @@ form>*:not(:first-of-type) {
   cursor: pointer;
 }
 
-/*input[type="text"],
+input[type="text"],
 input[type="email"],
 input[type="password"] {
   padding: 5px 8px;
 }
 
-input[type="submit"] {
+/*input[type="submit"] {
   border: 2px solid #333;
   border-radius: 3px;
   padding: 7px 15px;
