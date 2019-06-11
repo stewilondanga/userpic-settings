@@ -23,14 +23,13 @@
   height: 1.5em;
 }
 
-/*
 h1 {
   margin: 20px;
   text-align: center;
   font-size: 34px;
 }
 
-.settings-message {
+/*.settings-message {
   font-size: 20px;
   text-align: center;
 }
