@@ -133,11 +133,11 @@ form>*:not(:first-of-type) {
   }
 }
 
-/*.input__container > * input {
+.input__container>* input {
   width: 100%;
 }
 
-.input-action {
+/*.input-action {
   display: block;
   text-align: right;
   font-size: 12px;
