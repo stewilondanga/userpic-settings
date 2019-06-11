@@ -42,11 +42,11 @@ h1 {
   color: #293;
 }
 
-/*.hidden {
+.hidden {
   display: none;
 }
 
-form {
+/*form {
   display: flex;
   flex-direction: column;
   justify-content: center;
