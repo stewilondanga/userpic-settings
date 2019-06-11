@@ -34,10 +34,11 @@ h1 {
   text-align: center;
 }
 
-/*.settings-message--error {
+.settings-message--error {
   color: #923;
 }
-.settings-message--success {
+
+/*.settings-message--success {
   color: #293;
 }
 
