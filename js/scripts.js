@@ -20,7 +20,7 @@ const passwordConfirm = document.querySelector('#js-password-confirm');
 const passwordToggle = document.querySelector('#js-toggle-password');
 const passwordSuggest = document.querySelector('#js-suggest-password');
 let passwordDisplayed = false;
-/*
+
 // On form submission, check the passwords match and display a message if the password (would have) been saved.
 document.querySelector('form').addEventListener('submit', function(event) {
   event.preventDefault();
@@ -35,7 +35,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
     messageElement.classList.remove('settings-message--error');
   }
 });
-
+/*
 // Trigger the file upload to set the profile picture
 profileTrigger.addEventListener('click', function(event) {
   event.preventDefault();
