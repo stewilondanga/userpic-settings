@@ -99,7 +99,7 @@ form>*:not(:first-of-type) {
   background-position: center;
 }
 
-/*.profile-pic__foreground {
+.profile-pic__foreground {
   position: absolute;
   top: 0;
   width: 200px;
@@ -108,7 +108,8 @@ form>*:not(:first-of-type) {
   cursor: pointer;
   transition: color .2s, background-color .2s;
 }
-.profile-pic__foreground:hover {
+
+/*.profile-pic__foreground:hover {
   color: #fff;
   background-color: rgba(20, 20, 20, 0.85);
 }
