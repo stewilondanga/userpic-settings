@@ -21,6 +21,40 @@
         </a>
     </div>
 
+    <h1>Sample User Settings Form</h1>
+    <div class="settings-message" id="js-message"></div>
+    <form>
+      <input id="js-file-uploader" class="hidden" name="profile-picture" type="file" accept="image/png, image/jpeg" />
+
+      <div id="js-profile-pic" class="profile-pic__container">Upload Profile Pic
+        <div id="js-profile-trigger" class="profile-pic__foreground">Upload Profile Pic</div>
+      </div>
+
+      <div class="input__container">
+        <div class="input-container__single">
+          <label for="name">Name:</label>
+          <input type="text" required name="name" id="name" />
+        </div>
+        <div class="input-container__single">
+          <label for="email">Email:</label>
+          <input type="email" required name="email" id="email" />
+        </div>
+        <div class="input-container__single">
+          <label for="js-password">Password:</label>
+          <input type="password" required id="js-password" name="password" />
+          <span id="js-toggle-password" class="input-action">Display Password</span>
+        </div>
+        <div class="input-container__single">
+          <label for="js-password-confirm">Confirm Password:</label>
+          <input type="password" required id="js-password-confirm" name="confirm-password" />
+          <span class="input-action" id="js-suggest-password">Suggest Password</span>
+        </div>
+      </div>
+
+      <input type="submit" value="Save Profile" />
+    </form>
+        
+
   <section id="contact">
     <div class="overlay">
       <div class="containers">
