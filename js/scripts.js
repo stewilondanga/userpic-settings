@@ -35,13 +35,13 @@ document.querySelector('form').addEventListener('submit', function(event) {
     messageElement.classList.remove('settings-message--error');
   }
 });
-/*
+
 // Trigger the file upload to set the profile picture
 profileTrigger.addEventListener('click', function(event) {
   event.preventDefault();
   fileUpload.click();
 });
-
+/*
 // new profile pic added, display it
 fileUpload.addEventListener("change", function(event) {
   if (fileUpload.files && fileUpload.files[0]) {
