@@ -12,10 +12,10 @@ const messageElement = document.querySelector('#js-message');
 // Image elements
 const fileUpload = document.querySelector('#js-file-uploader');
 const profileTrigger = document.querySelector('#js-profile-trigger');
-/*const profileBackground = document.querySelector('#js-profile-pic');
+const profileBackground = document.querySelector('#js-profile-pic');
 
 // Password objects
-const password        = document.querySelector('#js-password');
+/*const password        = document.querySelector('#js-password');
 const passwordConfirm = document.querySelector('#js-password-confirm');
 const passwordToggle  = document.querySelector('#js-toggle-password');
 const passwordSuggest = document.querySelector('#js-suggest-password');
