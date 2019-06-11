@@ -55,14 +55,14 @@ fileUpload.addEventListener("change", function(event) {
     reader.readAsDataURL(fileUpload.files[0]);
   }
 });
-/*
+
 // Add a suggested password for the user (to both password & confirm password inputs)
 passwordSuggest.addEventListener('click', function(event) {
   let newPassword = btoa(Math.random().toString(36).substring(2));
-  password.value        = newPassword;
+  password.value = newPassword;
   passwordConfirm.value = newPassword;
 });
-
+/*
 // Toggle the type of input the password field is (for user visibility)
 passwordToggle.addEventListener('click', function(event) {
   passwordDisplayed = !passwordDisplayed;
